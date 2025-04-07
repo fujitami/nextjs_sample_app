@@ -92,10 +92,10 @@ export default function Page() {
         ふくろうくんのまるばつげーむ
       </h1>
       <div className={styles["marumaru-container"]}>
-        <span>いっしょにゲームするの！</span>
-        <Image src={fukurouPic} alt="ふくろう" width={500} height={500} />
+        <span>いっしょにゲームしよう！</span>
+        <Image src={fukurouPic} alt="ふくろう" width={250} height={250} />
       </div>
-      <button className="record-button">はなまるなゲームを きろくするの</button>
+      <button className="record-button">はなまるなゲームを きろくするよ</button>
       <div className={styles["game-container"]}>
         <div className={styles["game-board"]}>
           <Board
