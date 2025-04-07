@@ -1,5 +1,5 @@
 import Image from "next/image";
-import marumaruPic from "../../public/hanamaruobake.png";
+import fukurouPic from "../../../public/bird_fukurou_run.png";
 
 export default function Home() {
   return (
@@ -50,12 +50,7 @@ export default function Home() {
           >
             Read our docs
           </a>
-          <Image
-            src={marumaruPic}
-            alt="はなまるおばけ"
-            width={500}
-            height={500}
-          />
+          <Image src={fukurouPic} alt="ふくろう" width={500} height={500} />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

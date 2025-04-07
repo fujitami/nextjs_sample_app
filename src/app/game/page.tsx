@@ -2,7 +2,7 @@
 
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import marumaruPic from "../../../public/hanamaruobake.png";
+import fukurouPic from "../../../public/bird_fukurou_run.png";
 import { useState } from "react";
 
 interface SquareProps {
@@ -89,16 +89,11 @@ export default function Page() {
   return (
     <div className={styles.game}>
       <h1 className="text-3xl font-bold underline">
-        はなまるおばけのまるばつげーむ
+        ふくろうくんのまるばつげーむ
       </h1>
       <div className={styles["marumaru-container"]}>
         <span>いっしょにゲームするの！</span>
-        <Image
-          src={marumaruPic}
-          alt="はなまるおばけ"
-          width={500}
-          height={500}
-        />
+        <Image src={fukurouPic} alt="ふくろう" width={500} height={500} />
       </div>
       <button className="record-button">はなまるなゲームを きろくするの</button>
       <div className={styles["game-container"]}>

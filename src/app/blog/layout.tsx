@@ -1,11 +1,11 @@
-export default function GameLayout({
+export default function BlogLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <section>
-      <p>ふくろうくんのゲーム！</p>
+      <p>ふくろうくんです！</p>
       {children}
     </section>
   );
