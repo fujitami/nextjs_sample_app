@@ -1,5 +1,5 @@
 import Image from "next/image";
-import fukurouPic from "../../../public/bird_fukurou_run.png";
+import fukurouPic from "../../public/bird_fukurou_run.png";
 
 export default function Home() {
   return (
